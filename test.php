@@ -17,7 +17,7 @@ $user->_save();
 	DYNAMICALLY/ON THE FLY based on schema, using PHP closures or other methods.
 */
 
-echo $user->name(); // outputs "Luke"
+echo $user->name(); // outputs "Daniel"
 echo $user->occupation(); // outputs "Programmer"
 
 // Sets the name, occupations, updates
